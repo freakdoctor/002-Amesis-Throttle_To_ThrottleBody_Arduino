@@ -83,7 +83,7 @@ void loop() {
   Serial.print(papValeur);
   Serial.println("%");
 
-  // On attend 2 milisecondes pour que notre montage soit stable (Passé à 1 seconde pour une meilleure lecture)
+  // On attend 2 milisecondes pour que notre montage soit stable (Passé à 1 seconde pour une meilleure lecture le temps du debugging)
   //delay(2);
   delay(1000);
 }
